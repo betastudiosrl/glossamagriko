@@ -12,7 +12,7 @@
         "filePath": "glossamagriko.py",
         "cursor": {
           "lineNumber": 28,
-          "column": 80
+          "column": 76
         },
         "config": {
           "runtime": "python3.9",
@@ -102,7 +102,7 @@
     "platform": "AWS",
     "language": "python",
     "platformRegions": {},
-    "lastSave": 1650363615751
+    "lastSave": 1650363700196
   },
   "VCS_STATE": {
     "provider": "GitHub",
