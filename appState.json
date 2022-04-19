@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "glossamagriko.py",
         "cursor": {
-          "lineNumber": 18,
-          "column": 49
+          "lineNumber": 28,
+          "column": 80
         },
         "config": {
           "runtime": "python3.9",
@@ -102,7 +102,7 @@
     "platform": "AWS",
     "language": "python",
     "platformRegions": {},
-    "lastSave": 1650363461395
+    "lastSave": 1650363615751
   },
   "VCS_STATE": {
     "provider": "GitHub",
