@@ -1,0 +1,114 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "70899e21-aecd-438a-a7ff-c5813cb17c0a": {
+        "id": "70899e21-aecd-438a-a7ff-c5813cb17c0a",
+        "parent": null,
+        "name": "glossamagriko.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "glossamagriko.py",
+        "cursor": {
+          "lineNumber": 18,
+          "column": 49
+        },
+        "config": {
+          "runtime": "python3.9",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "glossamagriko"
+        },
+        "triggers": [
+          {
+            "resourceName": "alexaSK980094a4b6c346059a14579df12e71c0",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1650362726765,
+        "testCases": {
+          "e56404c6-7f9b-46f4-ba3d-efe38f9f1a8a": {
+            "id": "e56404c6-7f9b-46f4-ba3d-efe38f9f1a8a",
+            "name": "Test event",
+            "functionId": "70899e21-aecd-438a-a7ff-c5813cb17c0a",
+            "event": "{\r\n    \"key1\": \"value1\",\r\n    \"key2\": \"value2\",\r\n    \"key3\": \"value3\"\r\n}",
+            "eventTemplate": "hello-world"
+          }
+        }
+      },
+      "9db5be4a-8483-4b4f-b9c3-0ceee61b9e9e": {
+        "id": "9db5be4a-8483-4b4f-b9c3-0ceee61b9e9e",
+        "parent": null,
+        "name": "requirements.txt",
+        "type": "TEXT_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "requirements.txt"
+      }
+    },
+    "openFiles": [
+      "70899e21-aecd-438a-a7ff-c5813cb17c0a"
+    ],
+    "currentFileId": "70899e21-aecd-438a-a7ff-c5813cb17c0a",
+    "resources": {
+      "alexaSK980094a4b6c346059a14579df12e71c0": {
+        "name": "alexaSK980094a4b6c346059a14579df12e71c0",
+        "type": "ALEXA",
+        "config": {
+          "type": 1,
+          "verifiedID": true,
+          "skillID": "amzn1.ask.skill.980094a4-b6c3-4605-9a14-579df12e71c0",
+          "applicationID": ""
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "ask_sdk_core": {
+          "name": "ask_sdk_core",
+          "version": "1.13.0",
+          "dev": false,
+          "language": "python"
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.10.0",
+    "projectName": "glossamagriko",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "python",
+    "platformRegions": {},
+    "lastSave": 1650363461395
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "glossamagriko",
+      "url": "https://github.com/betastudiosrl/glossamagriko"
+    }
+  }
+}
